@@ -1,0 +1,28 @@
+#about-info {
+    min-height: 50vh;
+    background: linear-gradient(rgb(253, 255, 255), rgb(6, 16, 18));
+}
+
+#about {
+  background: linear-gradient( rgb(6, 16, 18), rgb(253, 255, 255), rgb(6, 16, 18));
+}
+
+#about img {
+  width: 300px; 
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #000;
+}
+  
+#about span{
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(8, 4, 214);
+}
+
+#about span:hover{
+  color:#07e7b7;
+  filter:drop-shadow(0 0 0.75rem purple);
+  text-shadow: 0 0 20px purple, 0 0 40px purple;
+  transition: all 0.4s ease;
+}
+
